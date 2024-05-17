@@ -15,7 +15,7 @@ const Home = () => {
                     <img
                         src={Image}
                         alt="my profile"
-                        className="rounded-2xl w-52 md:w-72 lg:w-96" // Set fixed widths for different breakpoints
+                        className="rounded-2xl w-52 md:w-72 lg:w-96"
                         style={{ marginTop: '29px' }}
                     />
                 </div>
