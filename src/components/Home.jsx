@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../assets/heroImage.jpeg'
+import Image from '../assets/heroImage.jpg'
 import { MdOutlineArrowRightAlt, MdOutlineFileDownload } from "react-icons/md";
 import { Link } from 'react-scroll';
 import Typewriter from 'typewriter-effect';
@@ -8,15 +8,14 @@ const Home = () => {
     return (
         <div
             name="home"
-            className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+            className="w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row">
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-screen px-4 md:flex-row">
                 <div className="w-full md:w-1/2 flex justify-center md:justify-start">
                     <img
                         src={Image}
                         alt="my profile"
-                        className="rounded-2xl w-52 md:w-72 lg:w-96"
-                        style={{ marginTop: '29px' }}
+                        className="w-56 md:w-72 lg:w-96 rounded-full"
                     />
                 </div>
                 <div className="flex flex-col justify-center h-full mt-6 md:mt-0 md:ml-10 w-full md:w-1/2">
