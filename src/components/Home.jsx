@@ -22,14 +22,14 @@ const Home = () => {
                     <h2 className="text-4xl sm:text-7xl font-bold text-white">
                         I'm a <Typewriter
                             options={{
-                                strings: ['Arunesh Akash', 'Software Engineer', 'Full Stack Developer'],
+                                strings: ['Arunesh Akash', 'Software Engineer', 'Senior Software Engineer', 'Full Stack Developer'],
                                 autoStart: true,
                                 loop: true,
                             }}
                         />
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                        My passion for coding and problem-solving motivates me to continuously learn and stay up-to-date with the latest technologies and industry trends. I am a collaborative team player and have excellent communication skills, making me a valuable asset to any project.
+                    As a Full-Stack developer with around 2.6 years of experience, I specialize in developing and delivering enterprise-grade software solutions. My expertise extends to creating both web and mobile applications. Expertise includes React, Redux, Next.js, React Native, Node.js and Python. 
                     </p>
 
                     <div className='flex gap-5'>
@@ -40,7 +40,7 @@ const Home = () => {
                             </span>
                         </Link>
 
-                        <a href="/Arunesh's resume.pdf" download={true} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <a href="https://docs.google.com/document/d/1baYrmm32KGAF7sbBc9X_y_WJko0hSYRm/edit?usp=sharing&ouid=105390420439993236630&rtpof=true&sd=true" trget="_blank" rel='noreferrer' className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             <span>
                                 <MdOutlineFileDownload size={15} className='mr-1' />
                             </span>
